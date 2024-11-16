@@ -464,7 +464,7 @@ const Report = () => {
 
           <div className="md:col-span-2">
             <label className="block text-gray-300 mb-2">Location</label>
-            <LoadScript googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y">
+            <LoadScript googleMapsApiKey="Your key ">
               <GoogleMap
                 mapContainerClassName="w-full h-96 rounded-lg"
                 center={selectedLocation || { lat: 31.9539, lng: 35.9106 }}
@@ -663,7 +663,7 @@ const Report = () => {
 
             <div className="md:col-span-2">
               <label className="block text-gray-300 mb-2">Location</label>
-              <LoadScript googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y">
+              <LoadScript googleMapsApiKey="your key ">
                 <GoogleMap
                   mapContainerClassName="w-full h-96 rounded-lg"
                   center={selectedLocation || { lat: 31.9539, lng: 35.9106 }}
@@ -1287,7 +1287,7 @@ export default Report;
 //           {/* Map Section */}
 //           <div className="md:col-span-2">
 //             <label className="block text-gray-300 mb-2">Location</label>
-//             <LoadScript googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y">
+//             <LoadScript googleMapsApiKey="">
 //               <GoogleMap
 //                 mapContainerClassName="w-full h-96 rounded-lg"
 //                 center={selectedLocation || { lat: 31.9539, lng: 35.9106 }}
